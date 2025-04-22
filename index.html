@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navbar Sectio Begin -->
+    <header>
+        <a href="#" class="logo">Portofolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+    </header>
+    <!-- Hero Section Begin -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi I'am</h3>
+            <h1>Edo Sani</h1>
+            <h3>And I'am a <span class="multiple-text"></span></h3>
+            <p>Fresh graduate in Informatics Engineering with strong
+                interest in Software Quality Assurance (manual & automation
+                testing). Strong understanding of
+                software development, REST API, HTML/CSS
+                /JS, and database. Detail-oriented, analytical, and
+                a good communicator who is ready to collaborate
+                with the team.
+            </p>
+
+            <!-- icons social media -->
+            <div class="social-media">
+                <a href="https://www.facebook.com/edo.sani.35"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/saniichi_/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/edo-sani-2ba519273/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/saniji"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="https://github.com/saniji/portofolio/raw/main/CV_Edo%20Sani.pdf" class="btn">Download CV</a>
+        </div>
+
+        <!-- profil image -->
+        <div class="home-img">
+            <img src="images/pp.jpg" alt="" />
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/pp.jpg" alt="" />
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I am recently graduated at the Sumatra Institute of Technology.
+            Throughout my academic journey, I have developed a strong interest and proficiency 
+            in software development, both web-based and mobile applications. To support this interest, 
+            I have mastered several programming languages ​​such as JavaScript and C++ along with basic 
+            HTML and CSS. I also have experience in developing various websites and mobile applications 
+            using the Laravel and Expo frameworks. I am also interested in developing IoT devices such as monitoring sytems.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="porject-container">
+            <div class="project-box">
+                <img src="images/war_jet.png" alt="">
+                <div class="description">
+                    <h4>War Jet</h4>
+                    <p>Proyek ini adalah pengembangan sebuah game menggunakan Pygame, 
+                    sebuah pustaka Python yang dirancang untuk pembuatan game. Game ini 
+                    merupakan hasil kerja kolaboratif dari sebuah tim yang terdiri dari 
+                    beberapa anggota, di mana setiap anggota memiliki peran dan tanggung jawab 
+                    masing-masing. Dalam proyek ini, saya bertanggung jawab untuk bagian programming.</p>
+                    <a href="https://github.com/saniji/Pygame-dan-Docker"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/rancangan_sistem.png" alt="">
+                <div class="description">
+                    <h4>Monitoring Pemadam Kebakaran</h4>
+                    <p>Proyek ini adalah pengembangan alat monitoring pemadam kebakaran menggunakan 
+                    ESP32 sebagai mikrokontroler dan Telegram untuk memberikan pesan notifikasi kepada 
+                    pengguna. Alat ini dirancang untuk mendeteksi kebakaran secara dini dan memberikan 
+                    peringatan cepat kepada pengguna melalui aplikasi Telegram. Proyek ini dikerjakan 
+                    secara berkelompok, saya bertanggung jawab atas pengkodean sistem.</p>
+                    <a href="https://github.com/saniji/monitoring_kebakaran"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/halaman_utama.png" alt="">
+                <div class="description">
+                    <h4>Aplikasi Inventory</h4>
+                    <p class="inventory">Aplikasi mobile ini dikembangkan menggunakan framework Expo, sebuah platform yang
+                    mempermudah pembuatan aplikasi mobile dengan React Native. Expo menyediakan serangkaian
+                    alat dan layanan yang memungkinkan pengembang untuk membangun aplikasi berkualitas tinggi 
+                    dengan efisiensi dan kemudahan.</p>
+                    <a href="https://github.com/saniji/Inventory"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacts -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="field">
+                    <input type="text" id="name" placeholder="Name" class="item" autocomplete="off">
+                </div>
+                <div class="field">
+                    <input type="email" id="email" placeholder="Email Address" class="item" autocomplete="off">
+                </div>           
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- watermark -->
+    <footer class="footer">
+
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-circle' ></i></a>
+        </div>
+    </footer>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
